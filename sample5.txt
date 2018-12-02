@@ -1,0 +1,5 @@
+   33  git branch test2
+   34  git checkout -b test2
+   35  git checkout -b test2
+   36  git checkout test2
+   37  ;s
