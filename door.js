@@ -1,21 +1,21 @@
 
 
 var selectoption=prompt("Enter 1:Room1, 2:Room2, 3:Room3");
-switch(selectoption){
-  case"1":room1();
-  break;
-  case"2":room2();
-  break;
-  case"3":room3();
-  break;
-  default:console.log("Required option is invalid");
-}
+// switch(selectoption){
+//   case"1":room1();
+//   break;
+//   case"2":room2();
+//   break;
+//   case"3":room3();
+//   break;
+//   default:console.log("Required option is invalid");
+// }
 var openRoom1=["room1","Sai"];
 var openRoom2=["room2","Kiran"];
 var openRoom3=["room3","Ram"];
 
 for(var count=1;count<3;count++)
-function room1(){
+
   alert("Your are near the door of Room1");
   var oStatus=true;
   while(oStatus){
@@ -42,7 +42,7 @@ function room1(){
     console.log("No action done");
   }
 }
-}
+
 //
 // }
 //
