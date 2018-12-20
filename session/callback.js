@@ -14,7 +14,7 @@ var pizzas  = [{
 var takeOrder = function(index){
   console.log(`Got Order For ${pizzas[index].name}`);
 }
-var deliver = function(){
+var deliver = function(index){
   console.log("Dispached for Delivary");
 }
 function makePizza (callback1,callback2){
